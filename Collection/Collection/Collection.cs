@@ -14,6 +14,7 @@ namespace Collection
             {
                 return;
             }
+
             RemoveMiddle(list);
             Add6IfMamaExist(list);
             ReverseIfCourse59Exist(list);
