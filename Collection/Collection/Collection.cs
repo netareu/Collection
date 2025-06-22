@@ -37,6 +37,12 @@ namespace Collection
             list = temporaryList;
         }
 
-
+        public void Add6IfMamaExist<T>(List<string> list)
+        {
+            if (list.Contains("mama"))
+            {
+                list.Add("6");
+            }
+        }
     }
 }
