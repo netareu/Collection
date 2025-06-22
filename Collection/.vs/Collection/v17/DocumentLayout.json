@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{D33EB574-BC3B-4198-8E55-F4ACA072D39E}|Collection\\Collection.csproj|solutionrelative:collection\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D33EB574-BC3B-4198-8E55-F4ACA072D39E}|Collection\\Collection.csproj|c:\\code\\collection\\collection\\collection\\icollectionoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D33EB574-BC3B-4198-8E55-F4ACA072D39E}|Collection\\Collection.csproj|solutionrelative:collection\\icollectionoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D33EB574-BC3B-4198-8E55-F4ACA072D39E}|Collection\\Collection.csproj|c:\\code\\collection\\collection\\collection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D33EB574-BC3B-4198-8E55-F4ACA072D39E}|Collection\\Collection.csproj|solutionrelative:collection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D33EB574-BC3B-4198-8E55-F4ACA072D39E}|Collection\\Collection.csproj|c:\\code\\collection\\collection\\collection\\icollectionoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D33EB574-BC3B-4198-8E55-F4ACA072D39E}|Collection\\Collection.csproj|solutionrelative:collection\\icollectionoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Code\\Collection\\Collection\\Collection\\Program.cs",
+              "RelativeDocumentMoniker": "Collection\\Program.cs",
+              "ToolTip": "C:\\Code\\Collection\\Collection\\Collection\\Program.cs",
+              "RelativeToolTip": "Collection\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T14:43:40.604Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,35 +45,22 @@
               "RelativeDocumentMoniker": "Collection\\Collection.cs",
               "ToolTip": "C:\\Code\\Collection\\Collection\\Collection\\Collection.cs",
               "RelativeToolTip": "Collection\\Collection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAA4wCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T14:08:37.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ICollectionOperations.cs",
               "DocumentMoniker": "C:\\Code\\Collection\\Collection\\Collection\\ICollectionOperations.cs",
               "RelativeDocumentMoniker": "Collection\\ICollectionOperations.cs",
               "ToolTip": "C:\\Code\\Collection\\Collection\\Collection\\ICollectionOperations.cs",
               "RelativeToolTip": "Collection\\ICollectionOperations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T14:08:04.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Code\\Collection\\Collection\\Collection\\Program.cs",
-              "RelativeDocumentMoniker": "Collection\\Program.cs",
-              "ToolTip": "C:\\Code\\Collection\\Collection\\Collection\\Program.cs",
-              "RelativeToolTip": "Collection\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T14:04:27.753Z",
               "EditorCaption": ""
             }
           ]

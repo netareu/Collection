@@ -1,0 +1,15 @@
+C:\Code\Collection\Collection\Collection\obj\Debug\net6.0\Collection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Collection\Collection\Collection\obj\Debug\net6.0\Collection.AssemblyInfoInputs.cache
+C:\Code\Collection\Collection\Collection\obj\Debug\net6.0\Collection.AssemblyInfo.cs
+C:\Code\Collection\Collection\Collection\obj\Debug\net6.0\Collection.csproj.CoreCompileInputs.cache
+C:\Code\Collection\Collection\Collection\obj\Debug\net6.0\Collection.sourcelink.json
+C:\Code\Collection\Collection\Collection\bin\Debug\net6.0\Collection.exe
+C:\Code\Collection\Collection\Collection\bin\Debug\net6.0\Collection.deps.json
+C:\Code\Collection\Collection\Collection\bin\Debug\net6.0\Collection.runtimeconfig.json
+C:\Code\Collection\Collection\Collection\bin\Debug\net6.0\Collection.dll
+C:\Code\Collection\Collection\Collection\bin\Debug\net6.0\Collection.pdb
+C:\Code\Collection\Collection\Collection\obj\Debug\net6.0\Collection.dll
+C:\Code\Collection\Collection\Collection\obj\Debug\net6.0\refint\Collection.dll
+C:\Code\Collection\Collection\Collection\obj\Debug\net6.0\Collection.pdb
+C:\Code\Collection\Collection\Collection\obj\Debug\net6.0\Collection.genruntimeconfig.cache
+C:\Code\Collection\Collection\Collection\obj\Debug\net6.0\ref\Collection.dll
