@@ -56,6 +56,20 @@ namespace Collection
         public void AddNumberOnSecondIndex(ref List<string> list)
         {
             int numberOfUniqueAppearances = GetNumberOfUniqueAppearances(list);
+            if (numberOfUniqueAppearances == 3)
+            {
+                List<string> tempList = new List<string>();
+                for (int i=0; i<2; i++)
+                {
+                    tempList.Add(list[i]);
+                }
+                tempList.AddRange(new List<string> { "2", "3", "4" });
+                for (int i = 2; i < list.Count; i++)
+                {
+                    tempList.Add(list[i]);
+                }
+                list = tempList;
+            }
         }
 
         public int GetNumberOfUniqueAppearances<T>(List<T> list)
@@ -68,7 +82,7 @@ namespace Collection
                     uniqueValues.Add(value);
                 }
             }
-            return list.Count - uniqueValues.Count;
+            return uniqueValues.Count;
         }
     }
 }
