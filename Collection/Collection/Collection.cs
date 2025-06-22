@@ -10,12 +10,21 @@ namespace Collection
     {
         public void ListOperations(List<string> list)
         {
-            
+            RemoveMiddle(ref list);
+            Add6IfMamaExist(ref list);
+            ReverseIfCourse59Exist(ref list);
+            AddNumberOnSecondIndex(ref list);
         }
 
         public void DictionaryOperations(Dictionary<string, int> dictionary)
         {
-
+            foreach(string key in dictionary.Keys)
+            {
+                if (key == "scuba" && dictionary["scuba"] == 6)
+                {
+                    dictionary.Add("dive", 6);
+                }
+            }
         }
 
         public void StackOperations(Stack<DateTime> stack)
@@ -37,7 +46,7 @@ namespace Collection
             list = temporaryList;
         }
 
-        public void Add6IfMamaExist<T>(ref List<string> list)
+        public void Add6IfMamaExist(ref List<string> list)
         {
             if (list.Contains("mama"))
             {
