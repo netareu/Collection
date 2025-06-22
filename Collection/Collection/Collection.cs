@@ -10,43 +10,54 @@ namespace Collection
     {
         public void ListOperations(List<string> list)
         {
-            RemoveMiddle(ref list);
-            Add6IfMamaExist(ref list);
-            ReverseIfCourse59Exist(ref list);
+            if (list == null || list.Count == 0)
+            {
+                return;
+            }
+            RemoveMiddle(list);
+            Add6IfMamaExist(list);
+            ReverseIfCourse59Exist(list);
             AddNumberOnSecondIndex(ref list);
         }
 
         public void DictionaryOperations(Dictionary<string, int> dictionary)
         {
-            foreach(string key in dictionary.Keys)
+            if (dictionary == null)
+            {
+                return;
+            }
+
+            foreach (string key in dictionary.Keys)
             {
                 if (key == "scuba" && dictionary["scuba"] == 6)
                 {
                     dictionary.Add("dive", 6);
+                    return;
                 }
             }
         }
 
         public void StackOperations(Stack<DateTime> stack)
         {
-
-        }
-
-
-        public void RemoveMiddle<T>(ref List<T> list) where T : class
-        {
-            List<T> temporaryList = new List<T>();
-            for (int i=0; i<list.Count; i++)
+            if (stack == null || stack.Count == 0)
             {
-                if (i != list.Count / 2)
-                {
-                    temporaryList.Add(list[i]);
-                }
+                return;
             }
-            list = temporaryList;
+
+            if (stack.Peek() < DateTime.Now)
+            {
+                stack.Pop();
+                stack.Push(DateTime.Now);
+            }
         }
 
-        public void Add6IfMamaExist(ref List<string> list)
+
+        public void RemoveMiddle<T>(List<T> list) where T : class
+        {
+            list.RemoveAt(list.Count / 2);
+        }
+
+        public void Add6IfMamaExist(List<string> list)
         {
             if (list.Contains("mama"))
             {
@@ -54,7 +65,7 @@ namespace Collection
             }
         }
 
-        public void ReverseIfCourse59Exist(ref List<string> list)
+        public void ReverseIfCourse59Exist(List<string> list)
         {
             if (list.Contains("course59") && list.IndexOf("course59") % 2 != 0)
             {
