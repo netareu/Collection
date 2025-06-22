@@ -37,7 +37,7 @@ namespace Collection
             list = temporaryList;
         }
 
-        public void Add6IfMamaExist<T>(List<string> list)
+        public void Add6IfMamaExist<T>(ref List<string> list)
         {
             if (list.Contains("mama"))
             {
@@ -45,12 +45,30 @@ namespace Collection
             }
         }
 
-        public void ReverseIfCourse59Exist(List<string> list)
+        public void ReverseIfCourse59Exist(ref List<string> list)
         {
             if (list.Contains("course59") && list.IndexOf("course59") % 2 != 0)
             {
                 list.Reverse();
             }
+        }
+
+        public void AddNumberOnSecondIndex(ref List<string> list)
+        {
+            int numberOfUniqueAppearances = GetNumberOfUniqueAppearances(list);
+        }
+
+        public int GetNumberOfUniqueAppearances<T>(List<T> list)
+        {
+            List<T> uniqueValues = new List<T>();
+            foreach (T value in list)
+            {
+                if (!uniqueValues.Contains(value))
+                {
+                    uniqueValues.Add(value);
+                }
+            }
+            return list.Count - uniqueValues.Count;
         }
     }
 }
