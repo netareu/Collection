@@ -44,5 +44,13 @@ namespace Collection
                 list.Add("6");
             }
         }
+
+        public void ReverseIfCourse59Exist(List<string> list)
+        {
+            if (list.Contains("course59") && list.IndexOf("course59") % 2 != 0)
+            {
+                list.Reverse();
+            }
+        }
     }
 }
